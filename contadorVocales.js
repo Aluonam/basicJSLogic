@@ -1,5 +1,5 @@
-
 // Escribe un programa que pida una frase y escriba las vocales que aparecen
+const frase = prompt("Escribe una frase:")
 const vocalesFrase = (frase) =>{
   
     const vocales = ["a","e","i","o","u"]
@@ -12,7 +12,6 @@ const vocalesFrase = (frase) =>{
     
     //si no queremos que salgan repetidas usar new Set()
     const vocalUnica = [...new Set(existeVocal)]
-    console.log(vocalUnica)
-   
+    document.write("Las vocales que aparecen son: ",vocalUnica)
   }
-  vocalesFrase("mi nombre es pau")
+  vocalesFrase(frase)
