@@ -2,7 +2,7 @@
 
 const divisible = (num)=>{
     const isDivisible = num%2 === 0
-    console.log(isDivisible)
+    document.write("El número es divisible: ",isDivisible)
   }
     
    divisible(5)
