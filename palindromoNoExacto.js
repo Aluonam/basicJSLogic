@@ -3,7 +3,12 @@ const palabraUsuario = prompt("Escribe las dos palabras que consideras palíndro
 
 const palindromoNoExacto = (palabraUsuario)=>{
     const palabraAlReves = palabraUsuario.split("").reverse().join("")
-
+    
+    if(palabraUsuario===palabraAlReves){
+        console.log("es palindromo")
+    }else{
+        console.log("no lo es")
+    }
 }
 
 palindromoNoExacto(palabraUsuario)
