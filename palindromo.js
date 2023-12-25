@@ -1,5 +1,5 @@
 
-const palabra = prompt("Escribe una palabra para comprobar si es un palíndromo")
+const palabra = prompt("Escribe una palabra para comprobar si es un palíndromo *Solo palíndromos EXACTOS")
 
 const palindromo = (palabra)=>{
     const palabraIntroducida = palabra.split("")
@@ -9,7 +9,7 @@ const palindromo = (palabra)=>{
         document.write("Esta palabra SI es un palíndromo")
     } 
     else{
-        document.write("Esta palabra NO es un palíndromo")
+        document.write("Esta palabra NO es un palíndromo perfecto")
     }
 }
 
