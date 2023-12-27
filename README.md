@@ -22,6 +22,11 @@ Uso de .some()
 Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a.
 Uso de .split() y .filter()
 
+### Suma de números de forma iterativa
 
-### Suma Num
+Este ejercicio permmite escribir un número y ejecuta una suma iterativa.
+Es decir, suma 1 + 2 + 3  y así sucesivamente hasta ejecutar la suma tantas veces como el número introducido.
+Uso de bucle for
+
+
 ### palindromo
