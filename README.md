@@ -11,7 +11,12 @@ Uso de split() map() includes() push() operador spread ... y new Set()
 
 Este ejercicio pide un número y eejcuta lógica báica para saber si es divisible entre dos o no (es decir, si es par o no porque su resto será 0).
 
-### esDivisible
+### ¿Es divisible entre 2, 3, 5 o 7 ?
+
+Programa que pide un número y nos dice si es divisible por 2, 3, 5 o 7. 
+Es decir, compara el número insertado con un array de números. 
+Uso de .some()
+
 ### numLetraConcreta
 ### Suma Num
 ### palindromo
