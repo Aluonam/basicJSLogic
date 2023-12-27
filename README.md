@@ -17,6 +17,11 @@ Programa que pide un número y nos dice si es divisible por 2, 3, 5 o 7.
 Es decir, compara el número insertado con un array de números. 
 Uso de .some()
 
-### numLetraConcreta
+### Contador de letra concreta y preasignada
+
+Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a.
+Uso de .split() y .filter()
+
+
 ### Suma Num
 ### palindromo
