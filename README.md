@@ -29,8 +29,14 @@ Es decir, suma 1 + 2 + 3  y así sucesivamente hasta ejecutar la suma tantas vec
 Uso de bucle for
 
 
-### palindromo
+### Palindromo
 
 Pide al usuario que escriba una palabra para comprobar si es un plaíndromo.
 *Solo comprobará si es un palíndromo exacto como 2002, oso. Y no para palabras con distintos significados como ave-eva.
 
+
+### Palindromo no exacto 
+
+Pide al usuario dos palabras separadas por guión para comprobar si se leen igual al revés que del derecho aunque no signifiquen lo mismo ni sean simétricas.
+Ejemplo: ave-eva, amor-roma.
+ 
