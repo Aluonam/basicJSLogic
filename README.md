@@ -30,3 +30,7 @@ Uso de bucle for
 
 
 ### palindromo
+
+Pide al usuario que escriba una palabra para comprobar si es un plaíndromo.
+*Solo comprobará si es un palíndromo exacto como 2002, oso. Y no para palabras con distintos significados como ave-eva.
+
