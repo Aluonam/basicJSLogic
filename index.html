@@ -11,11 +11,42 @@
     <script src='esDivisible.js'></script>
     <script src='numLetraConcreta.js'></script>
     <script src="sumaNum.js"></script>
-    <script src="palindromo.js"></script> -->
-    <!-- <script src="palindromoDosPalabras.js"></script> -->
-    <script src="boxNumber.js"></script>
+    <script src="palindromo.js"></script> 
+    <script src="palindromoDosPalabras.js"></script>
+    <script src="boxNumber.js"></script>-->
+
+<style>
+    #box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #box > div{
+        height: 5em;;
+        width: 5em;;
+        background-color: rgb(226, 208, 43);
+    }
+</style>
+
 </head>   
+
+
 <body>
-    
+    <h2>Pulsa los cuadrados y verás que número es cada uno</h2>
+    <div id="box"></div>
+    <script>
+                    
+            var div;
+            var box = document.getElementById("box");
+
+            for(let i = 0; i<5; i++){
+                div = document.createElement("div");
+                div.onclick = function () {
+                    alert("This is box # " + i);
+                };
+                box.appendChild(div);
+            } 
+    </script>
+
 </body>
 </html>
