@@ -39,4 +39,9 @@ Pide al usuario que escriba una palabra para comprobar si es un plaíndromo.
 
 Pide al usuario dos palabras separadas por guión para comprobar si se leen igual al revés que del derecho aunque no signifiquen lo mismo ni sean simétricas.
 Ejemplo: ave-eva, amor-roma.
- 
+
+
+###  Cajas iterativas con número
+
+Se crea un div con estilo para parecer una caja y se llama a una función iterativa cinco veces hasta pintar en pantalla cinco cajas.
+Salta una alerta al clicar sobre cada caja que indica el número de caja que es.
