@@ -45,3 +45,9 @@ Ejemplo: ave-eva, amor-roma.
 
 Se crea un div con estilo para parecer una caja y se llama a una función iterativa cinco veces hasta pintar en pantalla cinco cajas.
 Salta una alerta al clicar sobre cada caja que indica el número de caja que es.
+
+
+
+###  Cuenta regresiva
+
+Automáticamente se crea una cuenta regresiva en pantalla.
